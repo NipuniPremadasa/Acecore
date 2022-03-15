@@ -1,0 +1,202 @@
+body{
+	background-color: #000000;
+	font-family: Calibri, Helvetica, sans-serif;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.navigation{
+	height: 50px;
+	overflow: hidden;
+	background-color: #006400;
+	cursor: pointer;
+	display: block;
+
+
+}
+
+li{
+	float: right;
+}
+
+.logo{
+	float:left;
+	background-color:#006400; 
+	  
+}
+
+
+li a{
+	
+	color:#FFFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #8FBC8F;
+	color: #000000;
+}
+
+li a.click{
+	background-color: #8FBC8F;
+	color: #000000; 
+}
+
+
+.motto{
+	color: #FFFF;
+	font-size: 75px;
+	text-align: center;
+	font-family: 'Brush Script MT', cursive;
+	position: absolute;
+	top: 200px;
+	left: 40px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2{
+	color: white;
+	text-align: center;
+}
+
+.offer{
+	background-color: white;
+}
+td{
+	text-align: center;
+}
+
+.cut{
+	color: red;
+}
+.contacts{
+	color: white;
+	font-size: 18px;
+	position: absolute;
+	top: 100px;
+	left: 40px;
+}	
+
+.tele{
+	color: white;
+	font-size: 25px;
+	position: absolute;
+	top: 150px;
+	left: 40px;
+}
+
+.address{
+	color: white;
+	font-size: 18px;
+	position: absolute;
+	top: 400px;
+	left: 40px;
+}
+
+.mail{
+	color: white;
+	font-size: 18px;
+	position: absolute;
+	top: 300px;
+	left: 40px;
+}
+
+.follow{
+	color: #808080;
+	font-size: 18px;
+	position: absolute;
+	top: 500px;
+	left: 40px;
+}
+.social{
+	position: absolute;
+	top: 500px;
+	left: 150px;
+}
+
+.register{
+	color: white;
+	
+}
+
+input[type=text], select, input[type=email], input[type=password], input[type=date]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.label{
+	color: balck;
+}
+
+.laptop, .desktop, .accessories{
+	background-color: white;
+}
+
+table{
+	width: 100%;
+	text-align: center;
+}
+s, span{
+	color: red;
+}
+.about_us{
+	color:#A9A9A9;
+	position: absolute;
+	top: 100px;
+}
+
+.about_us_image{
+	opacity: 20%;
+}
+
+footer{
+background-color: #006400;
+ overflow: hidden;
+ text-align: center;
+ padding: 5px;
+ height: 25px;
+  bottom: 0;
+
+  
+}
+
+footer a{
+	width: 4%;
+	float: left;
+}
